@@ -17,7 +17,7 @@ class Program
         IOrderRepository repo = new OrderRepository();
         var order = repo.Read(inputPath);
         order.CalculateTax(country);
-
+        order.ToString();
         repo.Write(order, outputPath);
         Console.WriteLine(order.LineItems.First().CalculatedAmounts.TaxAmount);
     }
