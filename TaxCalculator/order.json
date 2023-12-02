@@ -1,0 +1,71 @@
+{
+
+    "id": "0caecd13-7fbe-4da6-9369-f764db01c632",
+
+    "number": "A-33",
+
+    "LocationId": 1695,
+
+    "PosId": 2704,
+
+    "Status": 0,
+
+    "Taxes": [
+
+        {
+
+            "Id": "d7cd79d4-018b-4339-a10e-529487f9a8dc",
+
+            "InventoryTaxId": "b0207997-5fbe-4f0c-a525-1a2081953401",
+
+            "Name": "Ohio State Sales Tax",
+
+            "Value": 0.0725,
+
+            "FederalType": 0,
+
+            "Default": false,
+
+            "Scope": 0,
+
+            "Receiver": 2,
+
+            "Type": 1,
+
+            "Attribute": []
+
+        }
+
+    ],
+
+    "LineItems": [
+
+        {
+
+            "Name": "Italian Sub",
+
+            "Id": "da09deb7-417a-474e-9c37-2b56af78f32e",
+
+            "Quantity": 10,
+
+            "CalculatedAmounts": {
+
+                "TotalAmount": 0,
+
+                "DiscountAmount": 0,
+
+                "TaxAmount": 0,
+
+                "SubTotalAmount": 8.25,
+
+                "CartDiscountAmount": 0,
+
+                "DeliveryFeeAmount": null
+
+            }
+
+        }
+
+    ]
+
+}
